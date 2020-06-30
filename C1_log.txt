@@ -1,0 +1,115 @@
+[06-30 10:52:24 MainThread @logger.py:224] Argv: D:/Users/Documents/doubandemo/RL/remake/waterworld/watergame.py
+[06-30 10:52:25 MainThread @watergame.py:163] obs_dim 4096, act_dim 3
+[06-30 10:52:25 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
+[06-30 10:52:25 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
+[06-30 10:52:25 MainThread @watergame.py:172] ------Loading------
+[06-30 10:52:25 MainThread @watergame.py:177] Train Episode 0, Reward Sum -3.0.
+[06-30 10:52:31 MainThread @watergame.py:177] Train Episode 10, Reward Sum -3.0.
+[06-30 10:52:41 MainThread @watergame.py:177] Train Episode 20, Reward Sum 1.0.
+[06-30 10:52:49 MainThread @watergame.py:177] Train Episode 30, Reward Sum -3.0.
+[06-30 10:52:56 MainThread @watergame.py:177] Train Episode 40, Reward Sum -7.0.
+[06-30 10:53:03 MainThread @watergame.py:177] Train Episode 50, Reward Sum 1.0.
+[06-30 10:53:12 MainThread @watergame.py:177] Train Episode 60, Reward Sum 1.0.
+[06-30 10:53:20 MainThread @watergame.py:177] Train Episode 70, Reward Sum -1.0.
+[06-30 10:53:30 MainThread @watergame.py:177] Train Episode 80, Reward Sum 7.0.
+[06-30 10:53:37 MainThread @watergame.py:177] Train Episode 90, Reward Sum 7.0.
+[06-30 10:53:57 MainThread @watergame.py:186] Episode 100, Test reward: 23.2
+[06-30 10:53:57 MainThread @watergame.py:177] Train Episode 100, Reward Sum -4.0.
+[06-30 10:54:06 MainThread @watergame.py:177] Train Episode 110, Reward Sum 4.0.
+[06-30 10:54:18 MainThread @watergame.py:177] Train Episode 120, Reward Sum -6.0.
+[06-30 10:54:28 MainThread @watergame.py:177] Train Episode 130, Reward Sum -3.0.
+[06-30 10:54:38 MainThread @watergame.py:177] Train Episode 140, Reward Sum -6.0.
+[06-30 10:54:47 MainThread @watergame.py:177] Train Episode 150, Reward Sum -1.0.
+[06-30 10:55:00 MainThread @watergame.py:177] Train Episode 160, Reward Sum 6.0.
+[06-30 10:55:11 MainThread @watergame.py:177] Train Episode 170, Reward Sum -1.0.
+[06-30 10:55:25 MainThread @watergame.py:177] Train Episode 180, Reward Sum 13.0.
+[06-30 10:55:33 MainThread @watergame.py:177] Train Episode 190, Reward Sum 19.0.
+[06-30 10:55:46 MainThread @watergame.py:186] Episode 200, Test reward: 1.4
+[06-30 10:55:46 MainThread @watergame.py:177] Train Episode 200, Reward Sum -2.0.
+[06-30 10:56:00 MainThread @watergame.py:177] Train Episode 210, Reward Sum -5.0.
+[06-30 10:56:12 MainThread @watergame.py:177] Train Episode 220, Reward Sum 15.0.
+[06-30 10:56:21 MainThread @watergame.py:177] Train Episode 230, Reward Sum 0.0.
+[06-30 10:56:32 MainThread @watergame.py:177] Train Episode 240, Reward Sum 13.0.
+[06-30 10:56:47 MainThread @watergame.py:177] Train Episode 250, Reward Sum 4.0.
+[06-30 10:57:01 MainThread @watergame.py:177] Train Episode 260, Reward Sum 16.0.
+[06-30 10:57:15 MainThread @watergame.py:177] Train Episode 270, Reward Sum -1.0.
+[06-30 10:57:30 MainThread @watergame.py:177] Train Episode 280, Reward Sum 17.0.
+[06-30 10:57:40 MainThread @watergame.py:177] Train Episode 290, Reward Sum -1.0.
+[06-30 10:57:54 MainThread @watergame.py:186] Episode 300, Test reward: 0.8
+[06-30 10:57:55 MainThread @watergame.py:177] Train Episode 300, Reward Sum 7.0.
+[06-30 10:58:06 MainThread @watergame.py:177] Train Episode 310, Reward Sum -1.0.
+[06-30 10:58:17 MainThread @watergame.py:177] Train Episode 320, Reward Sum 4.0.
+[06-30 10:58:29 MainThread @watergame.py:177] Train Episode 330, Reward Sum 3.0.
+[06-30 10:58:44 MainThread @watergame.py:177] Train Episode 340, Reward Sum 8.0.
+[06-30 10:58:55 MainThread @watergame.py:177] Train Episode 350, Reward Sum 0.0.
+[06-30 10:59:05 MainThread @watergame.py:177] Train Episode 360, Reward Sum 6.0.
+[06-30 10:59:18 MainThread @watergame.py:177] Train Episode 370, Reward Sum 14.0.
+[06-30 10:59:28 MainThread @watergame.py:177] Train Episode 380, Reward Sum 7.0.
+[06-30 10:59:40 MainThread @watergame.py:177] Train Episode 390, Reward Sum 17.0.
+[06-30 11:00:01 MainThread @watergame.py:186] Episode 400, Test reward: 8.6
+[06-30 11:00:02 MainThread @watergame.py:177] Train Episode 400, Reward Sum 5.0.
+[06-30 11:00:17 MainThread @watergame.py:177] Train Episode 410, Reward Sum 16.0.
+[06-30 11:00:36 MainThread @watergame.py:177] Train Episode 420, Reward Sum 26.0.
+[06-30 11:00:49 MainThread @watergame.py:177] Train Episode 430, Reward Sum -3.0.
+[06-30 11:01:01 MainThread @watergame.py:177] Train Episode 440, Reward Sum 1.0.
+[06-30 11:01:15 MainThread @watergame.py:177] Train Episode 450, Reward Sum 9.0.
+[06-30 11:01:30 MainThread @watergame.py:177] Train Episode 460, Reward Sum 0.0.
+[06-30 11:01:42 MainThread @watergame.py:177] Train Episode 470, Reward Sum 30.0.
+[06-30 11:01:58 MainThread @watergame.py:177] Train Episode 480, Reward Sum 3.0.
+[06-30 11:02:15 MainThread @watergame.py:177] Train Episode 490, Reward Sum 22.0.
+[06-30 11:02:35 MainThread @watergame.py:186] Episode 500, Test reward: 12.8
+[06-30 11:02:37 MainThread @watergame.py:177] Train Episode 500, Reward Sum 9.0.
+[06-30 11:02:47 MainThread @watergame.py:177] Train Episode 510, Reward Sum 21.0.
+[06-30 11:03:03 MainThread @watergame.py:177] Train Episode 520, Reward Sum 8.0.
+[06-30 11:03:15 MainThread @watergame.py:177] Train Episode 530, Reward Sum 0.0.
+[06-30 11:03:26 MainThread @watergame.py:177] Train Episode 540, Reward Sum -7.0.
+[06-30 11:03:40 MainThread @watergame.py:177] Train Episode 550, Reward Sum 7.0.
+[06-30 11:03:52 MainThread @watergame.py:177] Train Episode 560, Reward Sum 14.0.
+[06-30 11:04:08 MainThread @watergame.py:177] Train Episode 570, Reward Sum 10.0.
+[06-30 11:04:21 MainThread @watergame.py:177] Train Episode 580, Reward Sum 16.0.
+[06-30 11:04:34 MainThread @watergame.py:177] Train Episode 590, Reward Sum 0.0.
+[06-30 11:04:54 MainThread @watergame.py:186] Episode 600, Test reward: 4.4
+[06-30 11:04:55 MainThread @watergame.py:177] Train Episode 600, Reward Sum 3.0.
+[06-30 11:05:10 MainThread @watergame.py:177] Train Episode 610, Reward Sum 6.0.
+[06-30 11:05:25 MainThread @watergame.py:177] Train Episode 620, Reward Sum 23.0.
+[06-30 11:05:41 MainThread @watergame.py:177] Train Episode 630, Reward Sum 5.0.
+[06-30 11:06:07 MainThread @watergame.py:177] Train Episode 640, Reward Sum 38.0.
+[06-30 11:06:21 MainThread @watergame.py:177] Train Episode 650, Reward Sum -4.0.
+[06-30 11:06:42 MainThread @watergame.py:177] Train Episode 660, Reward Sum 51.0.
+[06-30 11:06:57 MainThread @watergame.py:177] Train Episode 670, Reward Sum 23.0.
+[06-30 11:07:15 MainThread @watergame.py:177] Train Episode 680, Reward Sum 1.0.
+[06-30 11:07:34 MainThread @watergame.py:177] Train Episode 690, Reward Sum 20.0.
+[06-30 11:07:58 MainThread @watergame.py:186] Episode 700, Test reward: 5.0
+[06-30 11:08:00 MainThread @watergame.py:177] Train Episode 700, Reward Sum 9.0.
+[06-30 11:08:24 MainThread @watergame.py:177] Train Episode 710, Reward Sum 4.0.
+[06-30 11:08:40 MainThread @watergame.py:177] Train Episode 720, Reward Sum 6.0.
+[06-30 11:08:50 MainThread @watergame.py:177] Train Episode 730, Reward Sum -4.0.
+[06-30 11:09:08 MainThread @watergame.py:177] Train Episode 740, Reward Sum -3.0.
+[06-30 11:09:21 MainThread @watergame.py:177] Train Episode 750, Reward Sum 17.0.
+[06-30 11:09:39 MainThread @watergame.py:177] Train Episode 760, Reward Sum 34.0.
+[06-30 11:10:01 MainThread @watergame.py:177] Train Episode 770, Reward Sum 16.0.
+[06-30 11:10:20 MainThread @watergame.py:177] Train Episode 780, Reward Sum 22.0.
+[06-30 11:10:40 MainThread @watergame.py:177] Train Episode 790, Reward Sum 38.0.
+[06-30 11:11:00 MainThread @watergame.py:186] Episode 800, Test reward: 10.8
+[06-30 11:11:04 MainThread @watergame.py:177] Train Episode 800, Reward Sum 42.0.
+[06-30 11:11:29 MainThread @watergame.py:177] Train Episode 810, Reward Sum 10.0.
+[06-30 11:11:44 MainThread @watergame.py:177] Train Episode 820, Reward Sum 12.0.
+[06-30 11:12:02 MainThread @watergame.py:177] Train Episode 830, Reward Sum 39.0.
+[06-30 11:12:21 MainThread @watergame.py:177] Train Episode 840, Reward Sum 9.0.
+[06-30 11:12:36 MainThread @watergame.py:177] Train Episode 850, Reward Sum 3.0.
+[06-30 11:12:48 MainThread @watergame.py:177] Train Episode 860, Reward Sum -2.0.
+[06-30 11:13:07 MainThread @watergame.py:177] Train Episode 870, Reward Sum 6.0.
+[06-30 11:13:24 MainThread @watergame.py:177] Train Episode 880, Reward Sum 42.0.
+[06-30 11:13:42 MainThread @watergame.py:177] Train Episode 890, Reward Sum 9.0.
+[06-30 11:14:09 MainThread @watergame.py:186] Episode 900, Test reward: 10.9
+[06-30 11:14:12 MainThread @watergame.py:177] Train Episode 900, Reward Sum 19.0.
+[06-30 11:14:31 MainThread @watergame.py:177] Train Episode 910, Reward Sum 33.0.
+[06-30 11:14:51 MainThread @watergame.py:177] Train Episode 920, Reward Sum 1.0.
+[06-30 11:15:09 MainThread @watergame.py:177] Train Episode 930, Reward Sum 7.0.
+[06-30 11:15:34 MainThread @watergame.py:177] Train Episode 940, Reward Sum 52.0.
+[06-30 11:15:54 MainThread @watergame.py:177] Train Episode 950, Reward Sum -1.0.
+[06-30 11:16:18 MainThread @watergame.py:177] Train Episode 960, Reward Sum 15.0.
+[06-30 11:16:42 MainThread @watergame.py:177] Train Episode 970, Reward Sum 48.0.
+[06-30 11:17:08 MainThread @watergame.py:177] Train Episode 980, Reward Sum 39.0.
+[06-30 11:17:29 MainThread @watergame.py:177] Train Episode 990, Reward Sum 16.0.
+[06-30 11:17:51 MainThread @watergame.py:193] Episode 1000, Test reward: 12.8
