@@ -24,14 +24,14 @@ class Model(parl.Model):
         self.fc1 = layers.fc(size=hid_size, act='tanh')
         self.fc1 = layers.fc(size=act_dim, act='softmax')
 
-    def forward(self, obs):  # 可直接用 model = Model(5); model(obs)调用
+    def forward(self, obs): 
 
         out = self.fc1(obs)
 
         return out
 
 
-from parl.algorithms import PolicyGradient  # 直接从parl库中导入PolicyGradient算法，无需重复写算法
+from parl.algorithms import PolicyGradient 
 
 
 class Agent(parl.Agent):
@@ -44,13 +44,13 @@ class Agent(parl.Agent):
         self.pred_program = fluid.Program()
         self.learn_program = fluid.Program()
 
-        with fluid.program_guard(self.pred_program):  # 搭建计算图用于 预测动作，定义输入输出变量
+        with fluid.program_guard(self.pred_program): 
             obs = layers.data(
                 name='obs', shape=[self.obs_dim], dtype='float32')
             self.act_prob = self.alg.predict(obs)
 
         with fluid.program_guard(
-                self.learn_program):  # 搭建计算图用于 更新policy网络，定义输入输出变量
+                self.learn_program): 
             obs = layers.data(
                 name='obs', shape=[self.obs_dim], dtype='float32')
             act = layers.data(name='act', shape=[1], dtype='int64')
@@ -58,12 +58,12 @@ class Agent(parl.Agent):
             self.cost = self.alg.learn(obs, act, reward)
 
     def sample(self, obs):
-        obs = np.expand_dims(obs, axis=0)  # 增加一维维度
+        obs = np.expand_dims(obs, axis=0) 
         act_prob = self.fluid_executor.run(
             self.pred_program,
             feed={'obs': obs.astype('float32')},
             fetch_list=[self.act_prob])[0]
-        act_prob = np.squeeze(act_prob, axis=0)  # 减少一维维度
+        act_prob = np.squeeze(act_prob, axis=0)  
         act = np.random.choice(range(self.act_dim), p=act_prob)
         return act
 
@@ -74,7 +74,7 @@ class Agent(parl.Agent):
             feed={'obs': obs.astype('float32')},
             fetch_list=[self.act_prob])[0]
         act_prob = np.squeeze(act_prob, axis=0)
-        act = np.argmax(act_prob)  # 根据动作概率选择概率最高的动作
+        act = np.argmax(act_prob)  
         return act
 
     def learn(self, obs, act, reward):
@@ -99,7 +99,7 @@ def run_episode(p, agent):
         info = p.getScreenRGB()
         obs = dealing(info)
         obs_list.append(obs)
-        action = agent.sample(obs)  # 采样动作
+        action = agent.sample(obs) 
         action_list.append(action)
         action = p.getActionSet()[action]
         reward= p.act(action)
@@ -109,7 +109,6 @@ def run_episode(p, agent):
     return obs_list, action_list, reward_list
 
 
-# 评估 agent, 跑 5 个episode，求平均
 def evaluate(p, agent):
     eval_reward = []
     for i in range(5):
@@ -124,22 +123,19 @@ def evaluate(p, agent):
             action = p.getActionSet()[action]
             reward= p.act(action)
             episode_reward += reward
-            time.sleep(0.02)
             if p.game_over():
                 break
         eval_reward.append(episode_reward)
     return np.mean(eval_reward)
 
 
-# Pong 图片预处理
 def dealing(image):
     """ 预处理 128x128x3 uint8 frame into 4096 (64x64) 1维 float vector """
     image = image[::2, ::2, 0]  # 下采样，缩放2倍
-    image[image != 0] = 1  # 转为灰度图，除了黑色外其他都是白色
+    image[image != 0] = 1 
     return image.astype(np.float).ravel()
 
 
-# 根据一个episode的每个step的reward列表，计算每一个Step的Gt
 def calc_reward_to_go(reward_list, gamma=0.99):
     """calculate discounted reward"""
     reward_arr = np.array(reward_list)
@@ -152,7 +148,6 @@ def calc_reward_to_go(reward_list, gamma=0.99):
     return reward_arr
 
 
-# 创建环境
 game = Catcher(width=128, height=128)
 p = PLE(game, fps=30, display_screen=True)
 p.init()
@@ -183,7 +178,7 @@ for i in range(1000):
         total_reward = evaluate(p, agent)
         logger.info('Episode {}, Test reward: {}'.format(i + 1,total_reward))
 
-save the parameters to ./model.ckpt
+#save the parameters to ./model.ckpt
 agent.save('./model.ckpt')
 # total_reward = evaluate(p, agent)
 # logger.info('Episode {}, Test reward: {}'.format(1000,total_reward))
