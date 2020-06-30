@@ -119,7 +119,8 @@ def evaluate(p, agent):
             eval_step += 1
             info = p.getScreenRGB()
             obs = dealing(info)
-            action = agent.predict(obs)
+            action = agent.sample(obs)
+#             action = agent.predict(obs)
             action = p.getActionSet()[action]
             reward= p.act(action)
             episode_reward += reward
