@@ -1,0 +1,115 @@
+[06-30 11:40:13 MainThread @logger.py:224] Argv: D:/Users/Documents/doubandemo/RL/remake/waterworld/Catcher.py
+[06-30 11:40:13 MainThread @Catcher.py:160] obs_dim 4096, act_dim 3
+[06-30 11:40:13 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
+[06-30 11:40:13 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
+[06-30 11:40:13 MainThread @Catcher.py:169] ------Loading------
+[06-30 11:40:16 MainThread @Catcher.py:174] Train Episode 0, Reward Sum 24.0.
+[06-30 11:40:41 MainThread @Catcher.py:174] Train Episode 10, Reward Sum 48.0.
+[06-30 11:41:12 MainThread @Catcher.py:174] Train Episode 20, Reward Sum 18.0.
+[06-30 11:41:51 MainThread @Catcher.py:174] Train Episode 30, Reward Sum 34.0.
+[06-30 11:42:20 MainThread @Catcher.py:174] Train Episode 40, Reward Sum 50.0.
+[06-30 11:42:41 MainThread @Catcher.py:174] Train Episode 50, Reward Sum 18.0.
+[06-30 11:43:10 MainThread @Catcher.py:174] Train Episode 60, Reward Sum 8.0.
+[06-30 11:43:32 MainThread @Catcher.py:174] Train Episode 70, Reward Sum 1.0.
+[06-30 11:43:55 MainThread @Catcher.py:174] Train Episode 80, Reward Sum 59.0.
+[06-30 11:44:17 MainThread @Catcher.py:174] Train Episode 90, Reward Sum 5.0.
+[06-30 11:44:45 MainThread @Catcher.py:183] Episode 100, Test reward: 10.2
+[06-30 11:44:46 MainThread @Catcher.py:174] Train Episode 100, Reward Sum 16.0.
+[06-30 11:45:11 MainThread @Catcher.py:174] Train Episode 110, Reward Sum 26.0.
+[06-30 11:45:41 MainThread @Catcher.py:174] Train Episode 120, Reward Sum 39.0.
+[06-30 11:46:06 MainThread @Catcher.py:174] Train Episode 130, Reward Sum 8.0.
+[06-30 11:46:28 MainThread @Catcher.py:174] Train Episode 140, Reward Sum 3.0.
+[06-30 11:47:01 MainThread @Catcher.py:174] Train Episode 150, Reward Sum 25.0.
+[06-30 11:47:16 MainThread @Catcher.py:174] Train Episode 160, Reward Sum 0.0.
+[06-30 11:47:38 MainThread @Catcher.py:174] Train Episode 170, Reward Sum 31.0.
+[06-30 11:48:09 MainThread @Catcher.py:174] Train Episode 180, Reward Sum 28.0.
+[06-30 11:48:29 MainThread @Catcher.py:174] Train Episode 190, Reward Sum 50.0.
+[06-30 11:48:50 MainThread @Catcher.py:183] Episode 200, Test reward: 12.6
+[06-30 11:48:54 MainThread @Catcher.py:174] Train Episode 200, Reward Sum 43.0.
+[06-30 11:49:17 MainThread @Catcher.py:174] Train Episode 210, Reward Sum 22.0.
+[06-30 11:49:38 MainThread @Catcher.py:174] Train Episode 220, Reward Sum 24.0.
+[06-30 11:50:06 MainThread @Catcher.py:174] Train Episode 230, Reward Sum 25.0.
+[06-30 11:50:22 MainThread @Catcher.py:174] Train Episode 240, Reward Sum 1.0.
+[06-30 11:50:36 MainThread @Catcher.py:174] Train Episode 250, Reward Sum 14.0.
+[06-30 11:50:54 MainThread @Catcher.py:174] Train Episode 260, Reward Sum 8.0.
+[06-30 11:51:15 MainThread @Catcher.py:174] Train Episode 270, Reward Sum 11.0.
+[06-30 11:51:43 MainThread @Catcher.py:174] Train Episode 280, Reward Sum 10.0.
+[06-30 11:52:11 MainThread @Catcher.py:174] Train Episode 290, Reward Sum 49.0.
+[06-30 11:52:36 MainThread @Catcher.py:183] Episode 300, Test reward: 4.2
+[06-30 11:52:38 MainThread @Catcher.py:174] Train Episode 300, Reward Sum 19.0.
+[06-30 11:53:05 MainThread @Catcher.py:174] Train Episode 310, Reward Sum 40.0.
+[06-30 11:53:28 MainThread @Catcher.py:174] Train Episode 320, Reward Sum 37.0.
+[06-30 11:53:49 MainThread @Catcher.py:174] Train Episode 330, Reward Sum 13.0.
+[06-30 11:54:09 MainThread @Catcher.py:174] Train Episode 340, Reward Sum 38.0.
+[06-30 11:54:31 MainThread @Catcher.py:174] Train Episode 350, Reward Sum 28.0.
+[06-30 11:54:53 MainThread @Catcher.py:174] Train Episode 360, Reward Sum 28.0.
+[06-30 11:55:09 MainThread @Catcher.py:174] Train Episode 370, Reward Sum 44.0.
+[06-30 11:55:29 MainThread @Catcher.py:174] Train Episode 380, Reward Sum 17.0.
+[06-30 11:56:04 MainThread @Catcher.py:174] Train Episode 390, Reward Sum 16.0.
+[06-30 11:56:38 MainThread @Catcher.py:183] Episode 400, Test reward: 12.8
+[06-30 11:56:41 MainThread @Catcher.py:174] Train Episode 400, Reward Sum 50.0.
+[06-30 11:57:05 MainThread @Catcher.py:174] Train Episode 410, Reward Sum 26.0.
+[06-30 11:57:26 MainThread @Catcher.py:174] Train Episode 420, Reward Sum 1.0.
+[06-30 11:57:51 MainThread @Catcher.py:174] Train Episode 430, Reward Sum 5.0.
+[06-30 11:58:22 MainThread @Catcher.py:174] Train Episode 440, Reward Sum 20.0.
+[06-30 11:58:52 MainThread @Catcher.py:174] Train Episode 450, Reward Sum 71.0.
+[06-30 11:59:23 MainThread @Catcher.py:174] Train Episode 460, Reward Sum 36.0.
+[06-30 11:59:52 MainThread @Catcher.py:174] Train Episode 470, Reward Sum -5.0.
+[06-30 12:00:20 MainThread @Catcher.py:174] Train Episode 480, Reward Sum 27.0.
+[06-30 12:00:51 MainThread @Catcher.py:174] Train Episode 490, Reward Sum 8.0.
+[06-30 12:01:29 MainThread @Catcher.py:183] Episode 500, Test reward: 14.6
+[06-30 12:01:30 MainThread @Catcher.py:174] Train Episode 500, Reward Sum 0.0.
+[06-30 12:01:49 MainThread @Catcher.py:174] Train Episode 510, Reward Sum 3.0.
+[06-30 12:02:27 MainThread @Catcher.py:174] Train Episode 520, Reward Sum 35.0.
+[06-30 12:03:03 MainThread @Catcher.py:174] Train Episode 530, Reward Sum 34.0.
+[06-30 12:03:41 MainThread @Catcher.py:174] Train Episode 540, Reward Sum 14.0.
+[06-30 12:04:12 MainThread @Catcher.py:174] Train Episode 550, Reward Sum 41.0.
+[06-30 12:04:41 MainThread @Catcher.py:174] Train Episode 560, Reward Sum 23.0.
+[06-30 12:05:12 MainThread @Catcher.py:174] Train Episode 570, Reward Sum -3.0.
+[06-30 12:05:51 MainThread @Catcher.py:174] Train Episode 580, Reward Sum 52.0.
+[06-30 12:06:23 MainThread @Catcher.py:174] Train Episode 590, Reward Sum 9.0.
+[06-30 12:06:58 MainThread @Catcher.py:183] Episode 600, Test reward: 9.0
+[06-30 12:07:05 MainThread @Catcher.py:174] Train Episode 600, Reward Sum 77.0.
+[06-30 12:07:39 MainThread @Catcher.py:174] Train Episode 610, Reward Sum 15.0.
+[06-30 12:08:14 MainThread @Catcher.py:174] Train Episode 620, Reward Sum 29.0.
+[06-30 12:08:51 MainThread @Catcher.py:174] Train Episode 630, Reward Sum 6.0.
+[06-30 12:09:14 MainThread @Catcher.py:174] Train Episode 640, Reward Sum 9.0.
+[06-30 12:09:45 MainThread @Catcher.py:174] Train Episode 650, Reward Sum 9.0.
+[06-30 12:10:07 MainThread @Catcher.py:174] Train Episode 660, Reward Sum 31.0.
+[06-30 12:10:39 MainThread @Catcher.py:174] Train Episode 670, Reward Sum 29.0.
+[06-30 12:11:10 MainThread @Catcher.py:174] Train Episode 680, Reward Sum 83.0.
+[06-30 12:11:36 MainThread @Catcher.py:174] Train Episode 690, Reward Sum 18.0.
+[06-30 12:12:11 MainThread @Catcher.py:183] Episode 700, Test reward: 9.0
+[06-30 12:12:13 MainThread @Catcher.py:174] Train Episode 700, Reward Sum 19.0.
+[06-30 12:12:56 MainThread @Catcher.py:174] Train Episode 710, Reward Sum 31.0.
+[06-30 12:13:20 MainThread @Catcher.py:174] Train Episode 720, Reward Sum 23.0.
+[06-30 12:13:56 MainThread @Catcher.py:174] Train Episode 730, Reward Sum 45.0.
+[06-30 12:14:27 MainThread @Catcher.py:174] Train Episode 740, Reward Sum 46.0.
+[06-30 12:14:50 MainThread @Catcher.py:174] Train Episode 750, Reward Sum 30.0.
+[06-30 12:15:04 MainThread @Catcher.py:174] Train Episode 760, Reward Sum 7.0.
+[06-30 12:15:33 MainThread @Catcher.py:174] Train Episode 770, Reward Sum 9.0.
+[06-30 12:15:59 MainThread @Catcher.py:174] Train Episode 780, Reward Sum 41.0.
+[06-30 12:16:26 MainThread @Catcher.py:174] Train Episode 790, Reward Sum 49.0.
+[06-30 12:16:54 MainThread @Catcher.py:183] Episode 800, Test reward: 14.6
+[06-30 12:16:57 MainThread @Catcher.py:174] Train Episode 800, Reward Sum 32.0.
+[06-30 12:17:27 MainThread @Catcher.py:174] Train Episode 810, Reward Sum 48.0.
+[06-30 12:18:01 MainThread @Catcher.py:174] Train Episode 820, Reward Sum 99.0.
+[06-30 12:18:28 MainThread @Catcher.py:174] Train Episode 830, Reward Sum 16.0.
+[06-30 12:18:50 MainThread @Catcher.py:174] Train Episode 840, Reward Sum 44.0.
+[06-30 12:19:23 MainThread @Catcher.py:174] Train Episode 850, Reward Sum 48.0.
+[06-30 12:19:57 MainThread @Catcher.py:174] Train Episode 860, Reward Sum 31.0.
+[06-30 12:20:24 MainThread @Catcher.py:174] Train Episode 870, Reward Sum 8.0.
+[06-30 12:20:50 MainThread @Catcher.py:174] Train Episode 880, Reward Sum 25.0.
+[06-30 12:21:26 MainThread @Catcher.py:174] Train Episode 890, Reward Sum 80.0.
+[06-30 12:22:08 MainThread @Catcher.py:183] Episode 900, Test reward: 16.4
+[06-30 12:22:09 MainThread @Catcher.py:174] Train Episode 900, Reward Sum 12.0.
+[06-30 12:22:41 MainThread @Catcher.py:174] Train Episode 910, Reward Sum 16.0.
+[06-30 12:23:13 MainThread @Catcher.py:174] Train Episode 920, Reward Sum 33.0.
+[06-30 12:23:46 MainThread @Catcher.py:174] Train Episode 930, Reward Sum -6.0.
+[06-30 12:24:14 MainThread @Catcher.py:174] Train Episode 940, Reward Sum 40.0.
+[06-30 12:24:46 MainThread @Catcher.py:174] Train Episode 950, Reward Sum -3.0.
+[06-30 12:25:10 MainThread @Catcher.py:174] Train Episode 960, Reward Sum 50.0.
+[06-30 12:25:41 MainThread @Catcher.py:174] Train Episode 970, Reward Sum 41.0.
+[06-30 12:26:12 MainThread @Catcher.py:174] Train Episode 980, Reward Sum 24.0.
+[06-30 12:26:34 MainThread @Catcher.py:174] Train Episode 990, Reward Sum 1.0.
+[06-30 12:27:04 MainThread @Catcher.py:183] Episode 1000, Test reward: 22.0
